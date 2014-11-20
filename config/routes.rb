@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
    #add an alias to home path, we'll see why later  
  root 'home#index', as: :home   
 

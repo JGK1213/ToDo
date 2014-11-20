@@ -48,8 +48,6 @@ group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0.0.beta4'
 
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
 
   #add in the gem for rspec
   gem 'rspec-rails', '~> 3.0.0'
@@ -69,6 +67,11 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 
 end
+
+gem 'therubyracer'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-fitbit'
 
 
 
